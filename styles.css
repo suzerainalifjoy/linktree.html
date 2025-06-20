@@ -1,0 +1,116 @@
+body {
+    background-image: url(images/BackgroundImage.png);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.profile-picture {
+    display: block;
+    margin: 80px auto 0 auto;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+    font-size: xx-large;
+    font-family: Volkhov, Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    background-size: cover;
+    background-position: center;
+
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.context-about-SuzerainAlifJoy {
+    font-size: medium;
+    text-align: center;
+}
+
+.visit-links {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center; /* centers items horizontally */
+    justify-content: center;
+    gap: 25px;
+    min-height: 100vh;
+    
+}
+
+.social-links {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/LightsOffWall.png);
+    padding: 15px;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.15);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.social-links:hover {
+    transform: translateY(-5px);
+    background-image: url(images/HeartLightsWall.png);
+}
+
+.social-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.site-name {
+    color: white;
+    font-family: playfair Display, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.about-me {
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    font-family: Playfair Display, Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: left;
+    padding: 40px;
+    max-width: 100%;
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-position: center;
+    border-radius: 5px;
+}
+
+.credits {
+    font-family: Volkhov, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: white;
+    text-align: end;
+}
